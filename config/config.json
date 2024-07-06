@@ -1,0 +1,9 @@
+{
+    "urls_and_texts": [
+        {"url": "https://www.snapchat.com/add/davido/", "text": "Scan for More About Me"},
+        {"url": "https://www.snapchat.com/add/davido/", "text": "Scan for More About Me"}
+    ],
+    "logo_path": "./image/snapchatlogo.png", 
+    "font_path": "./image/DejaVuSans-Bold.ttf",
+    "output_dir": "./output"
+}
