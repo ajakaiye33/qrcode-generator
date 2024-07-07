@@ -23,16 +23,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Lint code
+      #- name: Lint code
         #run: make lint
 
       - name: Format code
         run: make format
 
-      - name: Run tests
+      #- name: Run tests
         #run: make test
 
-      - name: Build Docker image
+      #- name: Build Docker image
         #run: make build
 
      
