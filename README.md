@@ -44,14 +44,18 @@ This project provides a QR code generator with additional features like adding l
 
 1. Clone the repository:
 
-```bash git clone https://github.com/ajakaiye33/qrcode-generator.git```
+```
+git clone https://github.com/ajakaiye33/qrcode-generator.git
+bash cd qrcode-generator
+```
 
-```bash cd qrcode-generator```
 
 
 2. Install the required Python packages:
 
-```make install```
+```
+make install
+```
 
 
 ### Configuration
