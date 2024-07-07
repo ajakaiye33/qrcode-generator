@@ -1,3 +1,6 @@
+
+[![CI/CD Pipeline](https://github.com/ajakaiye33/qr_code_generator/actions/workflows/ci.yml/badge.svg)](https://github.com/ajakaiye33/qr_code_generator/actions/workflows/ci.yml)
+
 # QR Code Generator CLI
 
 This project provides a QR code generator with additional features like adding logos and text below the QR code. A Command Line Interface (CLI) is provided for ease of use.
