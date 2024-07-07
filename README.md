@@ -22,11 +22,11 @@ This project provides a QR code generator with additional features like adding l
 ## Features
 
 - Generate QR codes for URLs.
-- Customize QR codes with logos.
+- Customize QR codes with logos or any photo.
 - Add text below the QR codes.
 - Configurable via a JSON file.
 - Docker support for containerized deployment.
-- Automated CI/CD pipeline with GitHub Actions.
+- Automated CI/CD pipeline with GitHub Actions basically for tests and format.
 
 ## Project Structure
 
@@ -44,10 +44,9 @@ This project provides a QR code generator with additional features like adding l
 
 1. Clone the repository:
 
-   ```bash 
-   git clone https://github.com/ajakaiye33/qr_code_generator.git```
+```bash git clone https://github.com/ajakaiye33/qrcode-generator.git```
 
-   ```bash cd qr_code_generator```
+```bash cd qrcode-generator```
 
 
 2. Install the required Python packages:
@@ -57,13 +56,18 @@ This project provides a QR code generator with additional features like adding l
 
 ### Configuration
 
-Create a configuration file at config/config.json with the following content:
+Update the configuration file at config/config.json with the following content:
 
 ```
 {
-  "logo_path": "./image/icononly_transparent_nobuffer.png",
-  "font_path": "./image/DejaVuSans-Bold.ttf",
-  "output_dir": "./output"
+    "urls_and_texts": [
+        {"url": "https://www.url/of/your/social/media/profile", "text": "Scan for More About Me"},
+        {"url": "https://www.another/url/of/social/media/profile", "text": "Scan for More About Me"},
+        ...
+    ],
+    "logo_path": "./image/snapchatlogo.png", [logo image or any photo you would like to put on your qrcode to perdonalize it]
+    "font_path": "./image/DejaVuSans-Bold.ttf",[only change this if you know what you are doing]
+    "output_dir": "./output"
 }
 ```
 
@@ -77,13 +81,19 @@ Generate QR codes via the CLI:
 
 Here are some samples of the generated QR codes:
 
-![Linkedin QR Code profile](sample_qrcode_images/linkedin_profile_qrcode_with_text_2.png)   ![Github QR Code Profile](sample_qrcode_images/github.png)
+![Linkedin QR Code profile](sample_qrcode_images/linkedin_profile_qrcode_with_text_2.png) 
 
-![X QR Code Profile](sample_qrcode_images/twitterprofile.png)  ![Youtube QR Code Profile](sample_qrcode_images/social_media_profile_qrcode_with_text_1.png)
+![Github QR Code Profile](sample_qrcode_images/github.png)
 
-![Snapchat QR Code Profile](sample_qrcode_images/social_media_profile_qrcode_with_text_2.png) ![Github QR Code Profile](sample_qrcode_images/guido.png)
+![X QR Code Profile](sample_qrcode_images/twitterprofile.png) 
 
-... now go generate yours :wink:
+![Youtube QR Code Profile](sample_qrcode_images/social_media_profile_qrcode_with_text_1.png)
+
+![Snapchat QR Code Profile](sample_qrcode_images/social_media_profile_qrcode_with_text_2.png)
+
+![Github QR Code Profile](sample_qrcode_images/guido.png)
+
+... Now GO generate yours :wink:
 
 ### Contributing
 
