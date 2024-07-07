@@ -74,15 +74,15 @@ Generate QR codes via the CLI:
 
 Here are some samples of the generated QR codes:
 
-[Linkedin QR Code profile]("./sample_qrcode_images/linkedin_profile_qrcode_with_text_2.png")
+![Linkedin QR Code profile]("./sample_qrcode_images/linkedin_profile_qrcode_with_text_2.png")
 
-[Github QR Code Profile]("./sample_qrcode_images/github.png")
+![Github QR Code Profile]("./sample_qrcode_images/github.png")
 
-[X QR Code Profile]("./sample_qrcode_images/twitterprofile.png")
+![X QR Code Profile]("./sample_qrcode_images/twitterprofile.png")
 
-[Youtube QR Code Profile]("./sample_qrcode_images/social_media_profile_qrcode_with_text_1.png")
+![Youtube QR Code Profile]("./sample_qrcode_images/social_media_profile_qrcode_with_text_1.png")
 
-[Snapchat QR Code Profile]("./sample_qrcode_images/social_media_profile_qrcode_with_text_2.png")
+![Snapchat QR Code Profile]("./sample_qrcode_images/social_media_profile_qrcode_with_text_2.png")
 
 ... now go generate yours :wink:
 
