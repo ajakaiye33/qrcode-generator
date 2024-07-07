@@ -67,15 +67,20 @@ Update the configuration file at config/config.json with the following content:
     ],
     "logo_path": "./image/snapchatlogo.png", [logo image or any photo you would like to put on your qrcode to perdonalize it]
     "font_path": "./image/DejaVuSans-Bold.ttf",[only change this if you know what you are doing]
-    "output_dir": "./output" [after running the code check this folder for your generated QR Code, png file... enjoy!...:wink:]
+    "output_dir": "./output" [after running the code check this folder for your generated QR Code, png file]
 }
 ```
 
 ### Usage
 
 Generate QR codes via the CLI:
- ```bash python main.py``` or 
- ```bash python app.py --config config/config.json --output ./output```
+ ``` 
+ python main.py
+ ``` 
+ or 
+ ```
+ python app.py --config config/config.json --output ./output 
+ ```
 
 ### Samples
 
