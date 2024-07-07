@@ -42,8 +42,9 @@ This project provides a QR code generator with additional features like adding l
 1. Clone the repository:
 
    ```bash 
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo```
+   git clone https://github.com/ajakaiye33/qr_code_generator.git```
+
+   ```bash cd qr_code_generator```
 
 
 2. Install the required Python packages:
@@ -66,17 +67,24 @@ Create a configuration file at config/config.json with the following content:
 ### Usage
 
 Generate QR codes via the CLI:
- ```bash python main.py``` or ```bash python app.py --config config/config.json --output ./output```
+ ```bash python main.py``` or 
+ ```bash python app.py --config config/config.json --output ./output```
 
 ### Samples
 
 Here are some samples of the generated QR codes:
 
-Sample 1
+[Linkedin QR Code profile]("./sample_qrcode_images/linkedin_profile_qrcode_with_text_2.png")
 
-Sample 2
+[Github QR Code Profile]("./sample_qrcode_images/github.png")
 
-Sample 3
+[X QR Code Profile]("./sample_qrcode_images/twitterprofile.png")
+
+[Youtube QR Code Profile]("./sample_qrcode_images/social_media_profile_qrcode_with_text_1.png")
+
+[Snapchat QR Code Profile]("./sample_qrcode_images/social_media_profile_qrcode_with_text_2.png")
+
+... now go generate yours :wink:
 
 ### Contributing
 
