@@ -67,7 +67,7 @@ Update the configuration file at config/config.json with the following content:
     ],
     "logo_path": "./image/snapchatlogo.png", [logo image or any photo you would like to put on your qrcode to perdonalize it]
     "font_path": "./image/DejaVuSans-Bold.ttf",[only change this if you know what you are doing]
-    "output_dir": "./output"
+    "output_dir": "./output" [after running the code check this folder for your generated QR Code, png file... enjoy!...:wink:]
 }
 ```
 
@@ -81,8 +81,11 @@ Generate QR codes via the CLI:
 
 Here are some samples of the generated QR codes:
 
-![Linkedin QR Code profile](sample_qrcode_images/linkedin_profile_qrcode_with_text_2.png) 
 
+<details>
+<summary>See Generated QR codes</summary>
+
+![Linkedin QR Code profile](sample_qrcode_images/linkedin_profile_qrcode_with_text_2.png)
 ![Github QR Code Profile](sample_qrcode_images/github.png)
 
 ![X QR Code Profile](sample_qrcode_images/twitterprofile.png) 
@@ -92,6 +95,9 @@ Here are some samples of the generated QR codes:
 ![Snapchat QR Code Profile](sample_qrcode_images/social_media_profile_qrcode_with_text_2.png)
 
 ![Github QR Code Profile](sample_qrcode_images/guido.png)
+
+![Join our Slack Channels](sample_qrcode_images/slack.png)
+</details>
 
 ... Now GO generate yours :wink:
 

@@ -1,9 +1,9 @@
 {
     "urls_and_texts": [
-        {"url": "https://www.snapchat.com/add/davido/", "text": "Scan for More About Me"},
-        {"url": "https://www.snapchat.com/add/davido/", "text": "Scan for More About Me"}
+        {"url": "https://delta-users.slack.com/join/shared_invite/zt-2kot55stj-tFSk9Ig~NyJ51M5fU2wyVw#/shared-invite/email/", "text": "Join our community @ Slack"},
+        {"url": "https://delta-users.slack.com/join/shared_invite/zt-2kot55stj-tFSk9Ig~NyJ51M5fU2wyVw#/shared-invite/email/", "text": "Join our community @ Slack"}
     ],
-    "logo_path": "./image/snapchatlogo.png", 
+    "logo_path": "./image/deltalake-slack-channel.png", 
     "font_path": "./image/DejaVuSans-Bold.ttf",
     "output_dir": "./output"
 }
