@@ -1,11 +1,11 @@
-import os
 import pytest
 from utils.file_utils import load_config
 
 
-@pytest.fixture
+@pytest.fixture(name="setup")
 def config_path():
     return "config/config.json"
+     
 
 
 def test_load_config(config_path):

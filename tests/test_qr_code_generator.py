@@ -1,19 +1,19 @@
 import os
 import pytest
-from qr.qr_code_generator import QRCodeGenerator
+from src.qr_code_generator import QRCodeGenerator
 
 
-@pytest.fixture
+@pytest.fixture(name="setup")
 def sample_data():
-    return "https://example.com"
+    return "https://x.com/barackobama/"
 
 
-@pytest.fixture
+@pytest.fixture(name="setup")
 def logo_path():
-    return "path/to/your/logo.png"
+    return "./image/github.png"
 
 
-@pytest.fixture
+@pytest.fixture(name="setup")
 def output_path(tmpdir):
     return os.path.join(tmpdir, "qr_code.png")
 

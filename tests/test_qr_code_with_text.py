@@ -1,7 +1,7 @@
 import os
 import pytest
 from PIL import Image
-from qr.qr_code_with_text import QRCodeWithText
+from src.qr_code_with_text import QRCodeWithText
 
 
 @pytest.fixture
@@ -16,7 +16,7 @@ def sample_text():
 
 @pytest.fixture
 def font_path():
-    return "path/to/your/font.ttf"
+    return "/image/DejaVuSans-Bold.ttf"
 
 
 @pytest.fixture

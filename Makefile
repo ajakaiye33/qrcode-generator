@@ -16,11 +16,11 @@ format:
 
 lint:
 	# Lint code
-	pylint --disable=R,C,broad-except $(SRC_DIR)/*.py $(SRC_DIR)/*.py
+	pylint --disable=R,C,W0621,broad-except $(SRC_DIR)/*.py $(SRC_DIR)/*.py
 
 test:
 	# Run tests
-	#pytest
+	pytest
 
 build:
 	# Build container
