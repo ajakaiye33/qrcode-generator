@@ -77,7 +77,7 @@ Update the configuration file at config/config.json with the following content:
 
 ### Usage
 
-Generate QR codes via the CLI:
+Generate QR codes:
  ``` 
  python main.py
  ``` 
