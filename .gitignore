@@ -42,7 +42,7 @@ qrcodyz/
 *~
 *.swp
 ._*
-
+.pytest_cache
 # Logs and databases
 *.log
 *.sql

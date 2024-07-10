@@ -18,7 +18,7 @@ class QRCodeWithText:
         draw = ImageDraw.Draw(qr_with_text)
         text_bbox = draw.textbbox((0, 0), self.text, font=font)
         text_width = text_bbox[2] - text_bbox[0]
-        #text_height = text_bbox[3] - text_bbox[1]
+        # text_height = text_bbox[3] - text_bbox[1]
         text_position = (
             (qr_with_text.size[0] - text_width) // 2,
             self.qr_img.size[1] + 10,

@@ -27,8 +27,8 @@ jobs:
       - name: Format code
         run: make format
 
-      #- name: Run tests
-        #run: make test
+      - name: Run tests
+        run: make test
 
       #- name: Build Docker image
         #run: make build

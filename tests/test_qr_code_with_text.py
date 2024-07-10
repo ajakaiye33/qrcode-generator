@@ -11,12 +11,12 @@ def sample_image():
 
 @pytest.fixture
 def sample_text():
-    return "Test Text"
+    return "TestText"
 
 
 @pytest.fixture
 def font_path():
-    return "/image/DejaVuSans-Bold.ttf"
+    return "./image/DejaVuSans-Bold.ttf"
 
 
 @pytest.fixture

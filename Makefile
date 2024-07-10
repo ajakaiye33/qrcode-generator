@@ -18,7 +18,11 @@ lint:
 	# Lint code
 	pylint --disable=R,C,W0621,broad-except $(SRC_DIR)/*.py $(SRC_DIR)/*.py
 
-test:
+clear_cache:
+	# Clear pytest cache
+	find . -type d -name '.pytest_cache' -exec rm -rf {} +
+
+test: clear_cache
 	# Run tests
 	pytest
 

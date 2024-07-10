@@ -3,17 +3,17 @@ import pytest
 from src.qr_code_generator import QRCodeGenerator
 
 
-@pytest.fixture(name="setup")
+@pytest.fixture()
 def sample_data():
     return "https://x.com/barackobama/"
 
 
-@pytest.fixture(name="setup")
+@pytest.fixture
 def logo_path():
     return "./image/github.png"
 
 
-@pytest.fixture(name="setup")
+@pytest.fixture()
 def output_path(tmpdir):
     return os.path.join(tmpdir, "qr_code.png")
 
