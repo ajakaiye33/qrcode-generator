@@ -105,7 +105,7 @@ Here are some samples of the generated QR codes:
 
 ![Github QR Code Profile](sample_qrcode_images/guido.png)
 
-![Join our Slack Channels](sample_qrcode_images/slack.png)
+![Join our Slack Channels](sample_qrcode_images/slackdelta.png)
 </details>
 
 ... Now GO generate yours :wink:
