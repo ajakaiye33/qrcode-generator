@@ -5,7 +5,7 @@ from loguru import logger
 
 
 class QRCodeGenerator:
-    def __init__(self, data, box_size=10, border=4):
+    def __init__(self, data, box_size=5, border=4):
         self.qr = qrcode.QRCode(
             version=1,
             error_correction=qrcode.constants.ERROR_CORRECT_H,
@@ -40,4 +40,4 @@ class QRCodeGenerator:
             logger.error(f"Logo file '{logo_path}' not found. Proceeding without logo.")
 
     async def save_image(self, path):
-        await asyncio.to_thread(self.img.save, path, format="PNG")
+        await asyncio.to_thread(self.img.save, path, format="PNG",compress_level=9)
