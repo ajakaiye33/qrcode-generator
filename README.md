@@ -83,7 +83,8 @@ Generate QR codes:
  ``` 
  or 
  ```
- python app.py --config config/config.json --output ./output 
+python app.py --config config/config.json --output ./output --with-text
+
  ```
 
 ### Samples
